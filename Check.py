@@ -1,6 +1,8 @@
-import numpy.linalg
+import numpy.linalg as npL
+import numpy as np
+import math
 
-var = [1,2]
+var = [[0, math.i],[]]
 
 print(var[0])
 
