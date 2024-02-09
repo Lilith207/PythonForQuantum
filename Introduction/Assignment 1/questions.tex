@@ -1,0 +1,130 @@
+Welcome to the first assignment! During this assignment, you will practice your math skills in an environment more similar to the one that you will face during the course assessment. Although the questions will not be the same, they will follow the same structure and you will have to solve the exercises using the Dirac notation or matrix--vector multiplication. Together with this assignment, you will find the \LaTeX { template} for you to use when solving the exercises and writing down your answers. Remember to upload a single pdf file with the full development of the assignment and the answers.
+\begin{question}
+	Given the quantum state $\ket{\psi} = \sqrt{\frac{1}{3}} \ket{0} + \sqrt{\frac{2}{3}} \ket{1}$. Is $\ket{\psi}$ a valid quantum state? Explain why.
+	\label{qst:assignment1_1}
+\end{question}
+{\small
+\texttt{Write down your solution here:}\\\\
+	$|\alpha|^2 + |\beta|^2 = 1$ is when the state is valid. \\ 
+	$\alpha = \sqrt{\frac{1}{3}}$\\
+	$\beta = \sqrt{\frac{2}{3}}$\\
+	$|\sqrt{\frac{1}{3}}|^2 + |\sqrt{\frac{2}{3}}|^2 = 1$\\
+	So yes, it is a valid quantum state
+\vspace{0.1cm}
+\begin{question}
+	Given the quantum states $\ket{\psi_{1}} = \frac{3}{5} \ket{0} + \frac{4}{5} \ket{1}$ and $\ket{\psi_{2}} = \frac{3}{5} \ket{0} - \frac{4}{5} \ket{1}$. What is the resulting quantum state $\ket{\psi} = \ket{\psi_{2}} - \ket{\psi_{1}}$?
+	\label{qst:assignment1_2}
+\end{question}
+{\small
+\texttt{Write down your solution here:}\\\\
+$\ket{\psi} = \ket{\psi_{2}} - \ket{\psi_{1}}$ \\
+$\ket{\psi_{2}} = \frac{3}{5} \ket{0} - \frac{4}{5} \ket{1}$\\
+$\ket{\psi_{1}} = \frac{3}{5} \ket{0} + \frac{4}{5} \ket{1}$\\
+$\ket{\psi} = \frac{3}{5} \ket{0} - \frac{4}{5} \ket{1} - (\frac{3}{5} \ket{0} + \frac{4}{5} \ket{1})$\\
+$\ket{\psi} = \frac{3}{5} \ket{0} - \frac{4}{5} \ket{1} - \frac{3}{5} \ket{0} - \frac{4}{5} \ket{1}$\\
+$\ket{\psi} = -\frac{5}{8}(-\frac{8}{5}\ket{1})$\\
+$\ket{\psi} = \ket{1}$
+\vspace{0.1cm}
+\begin{question}
+Assume that you can only use the quantum gates from the set $\mathcal{Q} = \left\lbrace I,\,X,\,Y,\,Z,\,H\right\rbrace$. Is it possible to create the quantum state $\ket{\psi_{out}} = \frac{i}{\sqrt{2}} \ket{0} - \frac{i}{\sqrt{2}} \ket{1}$ starting from the qubit $\ket{\psi_{in}} = \ket{0}$. Explain how?
+\label{qst:assignment1_3}
+\end{question}
+{\small
+\texttt{Write down your solution here:}\\\\
+A possible circuit to reach this state:\\
+	\begin{quantikz}
+		\ket{0}&\gate{Y}&\gate{H}&\meter{}
+	\end{quantikz}
+\vspace{0.1cm}
+\begin{question}
+Assume that you can only use the quantum gates from the set $\mathcal{Q} = \left\lbrace I,\,X,\,Y,\,Z,\,H\right\rbrace$. Is it possible to create the quantum state $\ket{\psi_{out}} = \frac{1}{\sqrt{2}} \ket{0} + \frac{i}{\sqrt{2}} \ket{1}$ starting from the qubit $\ket{\psi_{in}} = \ket{0}$. Explain how?
+\label{qst:assignment1_4}
+\end{question}
+{\small
+\texttt{Write down your solution here:}
+\begin{equation*}
+  \begin{split}
+  \end{split}
+\end{equation*}}
+\vspace{0.1cm}
+
+\begin{question}
+What state does the $S$ gate transform the quantum state $\ket{-i}$ into?
+\label{qst:assignment1_5}
+\end{question}
+{\small
+\texttt{Write down your solution here:}
+\begin{equation*}
+  \begin{split}
+    \ket{\psi} &= S \ket{-i} \\
+  \end{split}
+\end{equation*}}
+\vspace{0.1cm}
+\begin{figure}[t]
+  \centerline{\includegraphics[scale=0.35]{qci_a1_question6.ps}}
+  \caption{An arbitrary quantum circuit.}
+  \label{fig:circuit1}
+\end{figure}
+\begin{question}
+Consider the quantum circuit presented in Figure~\ref{fig:circuit1} and assume $\ket{q_{0}} = \ket{0}$. Determine, by using the Dirac notation, what is the state vector $\ket{\psi_{out}}$?
+\label{qst:assignment1_6}
+\end{question}
+{\small
+\texttt{Write down your solution here:}
+\begin{equation*}
+  \begin{split}
+      &\rightarrow \ket{0} \\
+  \end{split}
+\end{equation*}}
+\vspace{0.1cm}
+\begin{question}
+Consider the quantum circuit presented in Figure~\ref{fig:circuit1}. Determine, by using the matrix--matrix multiplication, what is the resulting transformation matrix?
+\label{qst:assignment1_7}
+\end{question}
+{\small
+\texttt{Write down your solution here:}
+\begin{equation*}
+  \begin{split}
+  \end{split}
+\end{equation*}}
+\vspace{0.1cm}
+\begin{question}
+Consider the quantum circuit presented in Figure~\ref{fig:circuit1} and assume $\ket{q_{0}} = \ket{1}$. Determine, by using the matrix--vector multiplication, what is the state vector $\ket{\psi_{out}}$?
+\label{qst:assignment1_8}
+\end{question}
+{\small
+\texttt{Write down your solution here:}
+\begin{equation*}
+  \begin{split}
+    &\rightarrow \ket{1} \\
+  \end{split}
+\end{equation*}}
+\vspace{0.1cm}
+\begin{figure}[t]
+  \centerline{\includegraphics[scale=0.35]{qci_a1_question9.ps}}
+  \caption{An arbitrary quantum circuit.}
+  \label{fig:circuit2}
+\end{figure}
+\begin{question}
+Consider the quantum circuit presented in Figure~\ref{fig:circuit2} and assume $\ket{q_{0}} = \ket{1}$. Determine, by using the Dirac notation, what is the state vector $\ket{\psi_{out}}$?
+\label{qst:assignment1_9}
+\end{question}
+{\small
+\texttt{Write down your solution here:}
+\begin{equation*}
+  \begin{split}
+    &\rightarrow \ket{1} \\
+  \end{split}
+\end{equation*}}
+\vspace{0.1cm}
+\begin{question}
+Consider the quantum circuit presented in Figure~\ref{fig:circuit2} and assume $\ket{q_{0}} = \ket{+}$. Determine, by using the Dirac notation, what is the state vector $\ket{\psi_{out}}$?
+\label{qst:assignment1_10}
+\end{question}
+{\small
+\texttt{Write down your solution here:}
+\begin{equation*}
+  \begin{split}
+    &\rightarrow \ket{+} \\
+  \end{split}
+\end{equation*}}
