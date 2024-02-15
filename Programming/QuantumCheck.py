@@ -6,8 +6,11 @@ import qiskit as QS
 QBnum = 1
 qc = QS.QuantumCircuit(QBnum)
 
-qc.y(0)
+qc.x(0)
+print(QS.quantum_info.Statevector(qc))
+
+print(QS.quantum_info.Statevector(qc))
 qc.h(0)
-vec = QS.quantum_info.Statevector(qc)
-print(vec)
+qc.y(0)
+print(QS.quantum_info.Statevector(qc))
 print(qc)
