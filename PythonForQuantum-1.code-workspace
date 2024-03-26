@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "PythonForQuantum-1",
+			"path": "."
+		},
+		{
+			"name": "hva-open-quantum-safe",
+			"path": "../../ProperQuantum/hva-open-quantum-safe"
+		}
+	],
+	"settings": {}
+}
