@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Database file #1: biblio.bib
+Warning--entry type for "Googletrend1" isn't style-file defined
+--line 1 of file biblio.bib
+Warning--entry type for "Googletrend2" isn't style-file defined
+--line 7 of file biblio.bib
+Warning--entry type for "Googletrend3" isn't style-file defined
+--line 13 of file biblio.bib
+Warning--entry type for "Statcounter1" isn't style-file defined
+--line 19 of file biblio.bib
+Warning--entry type for "Statistica1" isn't style-file defined
+--line 25 of file biblio.bib
+Warning--entry type for "Steamdb1" isn't style-file defined
+--line 31 of file biblio.bib
+Warning--entry type for "ExcelForum" isn't style-file defined
+--line 37 of file biblio.bib
+Warning--entry type for "quantumai" isn't style-file defined
+--line 61 of file biblio.bib
+Warning--entry type for "Dlss" isn't style-file defined
+--line 67 of file biblio.bib
+Warning--empty author in QuantumStringMatching
+Warning--empty journal in QuantumStringMatching
+Warning--empty year in QuantumStringMatching
+Warning--empty author in quantumDB
+Warning--empty journal in quantumDB
+Warning--empty year in quantumDB
+Warning--empty author in quantumRender
+Warning--empty journal in quantumRender
+Warning--empty year in quantumRender
+You've used 12 entries,
+            1876 wiz_defined-function locations,
+            512 strings with 4299 characters,
+and the built_in function-call counts, 1209 in all, are:
+= -- 84
+> -- 12
+< -- 0
++ -- 12
+- -- 0
+* -- 53
+:= -- 109
+add.period$ -- 0
+call.type$ -- 12
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 63
+empty$ -- 214
+format.name$ -- 0
+if$ -- 322
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 3
+newline$ -- 39
+num.names$ -- 0
+pop$ -- 78
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 77
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 9
+while$ -- 0
+width$ -- 14
+write$ -- 62
+(There were 18 warnings)
